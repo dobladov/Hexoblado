@@ -1,0 +1,14 @@
+<section class="box post allWidget allCategories">
+
+	<div class="content">
+		
+		<h2 class="title"><%= _p('all', __('archives')) %></h2>
+		<% site.categories.each(function(category) { %>
+
+			<a href="<%= url_for(category.path) %>"><%= category.name  %></a>
+
+		<% })  %>
+
+	</div>
+
+</section>

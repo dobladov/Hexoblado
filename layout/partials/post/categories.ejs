@@ -1,0 +1,11 @@
+<% if (categories.length) {  %>
+		
+	<div class="category">
+
+	<% categories.each(function(category) { %>
+		<a title="More post about <%= category.name %>" href="<%= url_for(category.path) %>"><%= category.name %></a>
+	<% }) %>
+
+	</div>
+
+<% } %>

@@ -1,0 +1,23 @@
+<footer class="box">
+	
+	<div class="right">
+		<% for (var i in theme.social){ %>
+
+			<% if (theme.social[i] != null) { %>
+
+				<a title="Follow Me" href="<%= theme.social[i] %>">
+					<i class="fa fa-<%= i %>"></i>
+				</a>
+
+			<% } %>
+			
+		<% } %>
+	</div>
+	
+	<div class="left">
+
+		<%- theme.footerText  %>
+		
+	</div>
+	
+</footer>

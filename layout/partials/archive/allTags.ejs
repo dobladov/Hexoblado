@@ -1,0 +1,14 @@
+<section class="box post allWidget allTags">
+
+	<div class="content">
+		
+		<h2 class="title"><%= _p('all_b', __('tags')) %></h2>
+		<% site.tags.each(function(tag) { %>
+
+			<a href="<%= url_for(tag.path) %>"><%= tag.name  %></a>
+
+		<% })  %>
+
+	</div>
+	
+</section>

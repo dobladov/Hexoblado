@@ -1,0 +1,20 @@
+<header>
+
+	<div class="brand">
+		<a href="<%= config.root  %>">
+			<%- image_tag('img/logo.svg', {"alt": "Logo", "class":"hide-sm"}) %>
+			<h1><%= config.title  %></h1>
+			<h2><%= config.subtitle  %></h2>
+		</a>
+	</div>
+
+	<nav id="navigation">
+
+		<% for (var i in theme.menu){ %>
+			
+			<a class="<%= is_current(theme.menu[i]) ? 'current' : '' %>" href="<%- url_for(theme.menu[i]) %>"><%- __(i.toLowerCase()) %></a>
+			
+		<% } %>
+	</nav>
+
+</header>

@@ -1,0 +1,29 @@
+<div class="socialIco">
+	<i class="fa fa-share-alt"></i>
+	<div class="socialMenu">
+		<input readOnly type="text" value="<%= url_for(url) %>">
+		<div class="socialIcons">
+
+			<a href="https://twitter.com/home?status=<%= url_for(url) %>">
+				<i class="fa fa-twitter"></i>
+			</a>
+
+			<a href="https://www.facebook.com/sharer/sharer.php?u=<%= url_for(url) %>">
+				<i class="fa fa-facebook"></i>
+			</a>
+
+			<a href="https://plus.google.com/share?url=<%= url_for(url) %>">
+				<i class="fa fa-google-plus"></i>
+			</a>
+
+			<a href="https://pinterest.com/pin/create/button/?url=&media=<%= url_for(url) %>">
+				<i class="fa fa-pinterest-p"></i>
+			</a>
+
+			<a href="https://www.linkedin.com/shareArticle?mini=true&url=<%= url_for(url) %>">
+				<i class="fa fa-linkedin"></i>
+			</a>
+
+		</div>
+	</div>
+</div>

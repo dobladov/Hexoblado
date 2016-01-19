@@ -1,0 +1,24 @@
+<% 	var year, newYear;
+
+	posts.each(function(post){
+
+		newYear = post.date.year();
+
+		if (newYear != year) {
+
+			year = newYear;
+
+			%> 
+				<div class="archiveYear"><%= year %></div>
+		<% }  
+
+	%>
+	
+	<div class="archivePost">
+		<a href="<%= url_for(post.path) %>">
+			<span class="archiveDate"><%- date(post.date, 'MMMM DD') %></span>
+			<h2><%= post.title %></h2>
+		</a>
+	</div>
+
+<% }) %>

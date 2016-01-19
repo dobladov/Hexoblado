@@ -1,0 +1,24 @@
+<article class="post box">
+
+	<h2 class="title">
+		<a href="<%= url_for(page.path) %>"><i class="fa fa-tag"></i> <%= __('tags') %>
+		
+		<% if (page.tag) { %>
+			<%= " " + __('for') + " " + page.tag  %>
+		<% }  %>
+
+		</a>
+
+	</h2>
+
+	<div class="content">
+
+		<%- partial('partials/archive/allArchives', {posts: page.posts}) %>
+		
+		<div class="clearfix"></div>
+
+	</div>
+
+</article>
+
+<%- partial('partials/pagination') %>

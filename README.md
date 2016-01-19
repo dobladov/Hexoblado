@@ -14,6 +14,17 @@ A dark theme for the [Hexo](https://hexo.io/) blog framework.
 ## Installation
 Download the theme, and copy the Hexoblado folder inside your theme's folder.
 
+```
+cd <blog-folder>
+git clone https://github.com/dobladov/Hexoblado.git themes/hexoblado
+```
+
+Add the theme in the `_config.yml` file.
+
+```
+theme: hexoblado
+```
+
 ## Features
 
 + Rss
@@ -22,31 +33,28 @@ Download the theme, and copy the Hexoblado folder inside your theme's folder.
 + Social Share
 + Configurable Logo and Favicon
 + Responsive design
++ Multiple lang
+	+ Es
+	+ En
 
 ## Configuration
 
-### Select Theme
-Select the theme in the `_config.yml` file
-
-```
-theme: hexoblado
-```
-
 ### RSS
 
-On your blog folder
-
 ```
+cd <blog-folder>
 npm install hexo-generator-feed
 ```
 
 Add this to your blog `_config.yml`
 
+``` yml
 feed:
   type: atom
   path: atom.xml
   limit: 20
   hub:
+ ```
   
 ### Favicon
 
@@ -61,7 +69,7 @@ favicon: "img/favicon.png"
 
 Add new items into the theme `_config.yml`
 
-```
+``` yml
 menu:
 	Home: index.html
 	About: about/
@@ -74,7 +82,7 @@ menu:
 
 Add new items into the theme `_config.yml` withe the name of the ![Font Awesome](https://fortawesome.github.io/Font-Awesome/) icon name.
 
-```
+``` yml
 social:
 	twitter: "https://twitter.com/dobladov"
 	github: "https://github.com/dobladov"
@@ -91,8 +99,11 @@ social:
 
 Change the value of `footerText:` on  the theme `_config.yml`
 
+### Google Analytics
+
+Add your google Analytics to `googleAnalytics:` in `_config.yml`
+
 ## ToDo
 
 + Open Data
-+ Google Analytics
-+ Refactor ejs Templates
++ Fancybox Gallery

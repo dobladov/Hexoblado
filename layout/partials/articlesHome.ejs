@@ -1,0 +1,13 @@
+<article class="post box">
+	
+	<%- partial('partials/post/date', {postDate: post.date, postPath: post.path}) %>
+	<%- partial('partials/post/title', {postTitle: post.title, postPath: post.path}) %>
+	
+	<div class="content"><%- post.more %></div>
+
+	<%- partial('partials/post/tags', {tags: post.tags}) %>
+	<%- partial('partials/post/socialMenu', {url: post.permalink}) %>
+
+	<div class="clearfix"></div>
+
+</article>

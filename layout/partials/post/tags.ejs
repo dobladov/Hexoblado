@@ -1,0 +1,11 @@
+<% if(tags.length) {  %>
+	
+	<div class="tags">
+
+	<% tags.each(function(tag) { %>
+		<a title="<%= __('morePosts') + " " + tag.name %>" href="<%= url_for(tag.path) %>"><i class="fa fa-tag"></i> <%= tag.name %></a>
+	<% }) %>
+
+	</div>
+
+<% } %>

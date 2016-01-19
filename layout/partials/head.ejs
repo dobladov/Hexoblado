@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<% var title = page.title %>
+
+	<title><%= titlecase(title) || config.title %></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<% if (theme.favicon){ %>
+		<link rel="icon" href="<%- theme.favicon %>">
+	<% } %>
+
+	<% if (config.feed){ %>
+	<link rel="alternate" href="/<%- config.feed.path %>" title="<%= config.title %>" type="application/atom+xml">
+	<% } %>
+
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
+	<%- css('css/reset') %>
+	<%- css('lib/font-awesome-4.5.0/css/font-awesome.min.css') %>
+	<%- css('css/main') %>
+
+</head>

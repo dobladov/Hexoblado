@@ -1,0 +1,23 @@
+menu:
+	Home: index.html
+	About: about/
+	Projects: projects/
+	"<i class='fa fa-archive'></i>": archives/
+	"<i class='fa fa-rss'></i>": atom.xml
+
+favicon: "img/favicon.png"
+
+social:
+	twitter: "https://twitter.com/dobladov"
+	github: "https://github.com/dobladov"
+	pinterest-p:
+	facebook:
+	google-plus:
+	youtube:
+	instagram:
+	linkedin:
+	tumblr:
+
+googleAnalytics: 
+
+footerText: '<span title="Developed by @dobladov">Powered by <a href="https://hexo.io/">Hexo</a></span>'

@@ -1,0 +1,5 @@
+<% page.posts.each(function(post){ %>
+	<%- partial('partials/articlesHome', {post: post}) %>
+<% }) %>
+
+<%- partial('partials/pagination') %>

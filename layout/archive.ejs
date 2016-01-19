@@ -1,0 +1,39 @@
+<article class="post box">
+	
+	<h2 class="title">
+		<a href="<%= url_for(page.path) %>"><i class="fa fa-archive"></i> <%= __('archive') %>
+
+		<% if (page.category) { %>
+			<%= " " + __('for') + " " + page.category  %>
+		<% }  %>
+
+		</a>
+
+	</h2>
+
+	<div class="content">
+
+		<% if (page.category) { %>
+
+			<%- partial('partials/archive/allArchives', {posts: page.posts}) %>
+
+		<% } else { %>
+
+			<%- partial('partials/archive/allArchives', {posts: site.posts}) %>
+
+		<% } %>
+
+		<div class="clearfix"></div>
+
+	</div>
+
+
+</article>
+
+<%- partial('partials/archive/allCategories') %>
+<%- partial('partials/archive/allTags') %>
+
+<% if (page.category) { %>
+	<%- partial('partials/pagination') %>
+<% }  %>
+
