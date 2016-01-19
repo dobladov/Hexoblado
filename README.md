@@ -1,6 +1,8 @@
 # Hexoblado
 A dark theme for the [Hexo](https://hexo.io/) blog framework.
 
+◈ | [Demo Site](http://warrior-streams-76428.bitballoon.com/) | ◈
+
 ## Screenshots
 
 ![Home](https://my.mixtape.moe/qpvtsj.png)
