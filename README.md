@@ -80,7 +80,7 @@ menu:
 
 ### Social Icons
 
-Add new items into the theme `_config.yml` withe the name of the ![Font Awesome](https://fortawesome.github.io/Font-Awesome/) icon name.
+Add new items into the theme `_config.yml` with the name of the ![Font Awesome](https://fortawesome.github.io/Font-Awesome/) icon name.
 
 ``` yml
 social:
