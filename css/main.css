@@ -8,7 +8,8 @@ html, body {
 	height: 100%;
 	color: #fff;
 	background-color: #303030;
-	background-image: url("/img/background.png");
+	background-image: url("/Hexoblado/img/background.png");
+	
 	font-size: 17px;
 	font-family: 'Poiret One', cursive;
 }
