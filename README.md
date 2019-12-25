@@ -3,8 +3,8 @@ A dark theme for the [Hexo](https://hexo.io/) blog framework.
 
 ## Screenshots
 
-![Screen Shot 2019-12-25 at 19 59 03-fullpage](https://user-images.githubusercontent.com/1938043/71450057-6ef03f80-275a-11ea-84fc-fa1ea860859d.png)
-![Screen Shot 2019-12-25 at 21 06 05-fullpage](https://user-images.githubusercontent.com/1938043/71450056-6dbf1280-275a-11ea-957c-eed9d85b598e.png)
+![Screen Shot 2019-12-25 at 21 49 41-fullpage](https://user-images.githubusercontent.com/1938043/71450347-a82bae00-2760-11ea-9743-b674ac5929de.png)
+![Screen Shot 2019-12-25 at 21 49 47-fullpage](https://user-images.githubusercontent.com/1938043/71450348-a8c44480-2760-11ea-8630-ec7562b58120.png)
 
 ## Installation
 Download the theme, and copy the Hexoblado folder inside your theme's folder.
