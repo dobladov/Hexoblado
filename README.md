@@ -3,7 +3,7 @@ A dark theme for the [Hexo](https://hexo.io/) blog framework.
 
 ## Screenshots
 
-![Screen Shot 2019-12-25 at 21 49 41-fullpage](https://user-images.githubusercontent.com/1938043/71450347-a82bae00-2760-11ea-9743-b674ac5929de.png)
+![image](https://user-images.githubusercontent.com/1938043/71450368-e88b2c00-2760-11ea-811b-3d5bad168dda.png)
 ![Screen Shot 2019-12-25 at 21 49 47-fullpage](https://user-images.githubusercontent.com/1938043/71450348-a8c44480-2760-11ea-8630-ec7562b58120.png)
 
 ## Installation
