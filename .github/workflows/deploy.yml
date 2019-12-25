@@ -22,7 +22,7 @@ jobs:
         cd ..
         npx hexo init blog
         ls
-        cp Hexoblado test/themes/hexoblado
+        mv Hexoblado blog/themes/hexoblado
         cd blog
         sed -i 's/landscape/hexoblado/g' _config.yml
         sed -i 's/yoursite.com/yoursite.com\/hexoblado/g' _config.yml
