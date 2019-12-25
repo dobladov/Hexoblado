@@ -30,12 +30,13 @@ jobs:
         ls public
         cat public/index.html
         
+
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: public
     - run: |
         ls
         pwd
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./public
