@@ -21,7 +21,8 @@ jobs:
         npm install npx
         cd ..
         npx hexo init blog
-        cp hexoblado test/themes/hexoblado
+        ls
+        cp Hexoblado test/themes/hexoblado
         cd blog
         sed -i 's/landscape/hexoblado/g' _config.yml
         sed -i 's/yoursite.com/yoursite.com\/hexoblado/g' _config.yml
