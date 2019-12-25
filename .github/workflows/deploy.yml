@@ -27,11 +27,12 @@ jobs:
         sed -i 's/yoursite.com/yoursite.com\/hexoblado/g' _config.yml
         sed -i 's/root: \//root: \/hexoblado/g' _config.yml
         npx hexo deploy
-        ls
+        ls public
+        cat public/index.html
         
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: public
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./public
