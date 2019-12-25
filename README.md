@@ -1,17 +1,10 @@
 # Hexoblado
 A dark theme for the [Hexo](https://hexo.io/) blog framework.
 
-◈ | [Demo Site](http://warrior-streams-76428.bitballoon.com/) | ◈
-
 ## Screenshots
 
-![Home](https://my.mixtape.moe/qpvtsj.png)
-
-![Archive](https://my.mixtape.moe/gpcwws.png)
-
-![Social](https://my.mixtape.moe/agtyvw.png)
-
-![Phone](https://my.mixtape.moe/gzwmfz.png)
+![Screen Shot 2019-12-25 at 19 59 03-fullpage](https://user-images.githubusercontent.com/1938043/71450057-6ef03f80-275a-11ea-84fc-fa1ea860859d.png)
+![Screen Shot 2019-12-25 at 21 06 05-fullpage](https://user-images.githubusercontent.com/1938043/71450056-6dbf1280-275a-11ea-957c-eed9d85b598e.png)
 
 ## Installation
 Download the theme, and copy the Hexoblado folder inside your theme's folder.
@@ -73,11 +66,11 @@ Add new items into the theme `_config.yml`
 
 ``` yml
 menu:
-	Home: index.html
-	About: about/
-	Projects: projects/
-	"<i class='fa fa-archive'></i>": archives/
-	"<i class='fa fa-rss'></i>": atom.xml
+  Home: index.html
+  About: about/
+  Projects: projects/
+  "<i class='fa fa-archive'></i>": archives/
+  "<i class='fa fa-rss'></i>": atom.xml
 ```
 
 ### Social Icons
@@ -86,15 +79,15 @@ Add new items into the theme `_config.yml` with the name of the [Font Awesome](h
 
 ``` yml
 social:
-	twitter: "https://twitter.com/dobladov"
-	github: "https://github.com/dobladov"
-	pinterest-p:
-	facebook:
-	google-plus:
-	youtube:
-	instagram:
-	linkedin:
-	tumblr:
+  twitter: "https://twitter.com/dobladov"
+  github: "https://github.com/dobladov"
+  pinterest-p:
+  facebook:
+  google-plus:
+  youtube:
+  instagram:
+  linkedin:
+  tumblr:
 ```
 
 ### Footer text
